@@ -22,7 +22,8 @@ class DatasetsPresenter: DatasetsPresentationLogic {
         let datasets = response.datasetList.compactMap {
             Datasets.DatasetList.ViewModel.DatasetListDisplay(
                 name: $0.name,
-                description: $0.description
+                description: $0.description,
+                id: $0.id
             )
         }
         let vm = Datasets.DatasetList.ViewModel.Success(items: datasets)

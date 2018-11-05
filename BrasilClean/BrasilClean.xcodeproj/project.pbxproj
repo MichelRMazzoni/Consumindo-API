@@ -35,6 +35,8 @@
 		D710E861219076B100F48AD0 /* DatasetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D710E85F219076B100F48AD0 /* DatasetsTableViewCell.xib */; };
 		D710E86321907FE800F48AD0 /* Datasets+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86221907FE800F48AD0 /* Datasets+TableView.swift */; };
 		D710E865219089ED00F48AD0 /* WebService+Datasets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E864219089ED00F48AD0 /* WebService+Datasets.swift */; };
+		D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */; };
+		D710E8692190C3B400F48AD0 /* WebService+GastosDiretos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		D710E85F219076B100F48AD0 /* DatasetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatasetsTableViewCell.xib; sourceTree = "<group>"; };
 		D710E86221907FE800F48AD0 /* Datasets+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Datasets+TableView.swift"; sourceTree = "<group>"; };
 		D710E864219089ED00F48AD0 /* WebService+Datasets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Datasets.swift"; sourceTree = "<group>"; };
+		D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretos.swift; sourceTree = "<group>"; };
+		D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+GastosDiretos.swift"; sourceTree = "<group>"; };
 		E74557A1FE309C900D2D6C32 /* Pods-BrasilCleanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrasilCleanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrasilCleanTests/Pods-BrasilCleanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				D710E8492190648000F48AD0 /* Datasets.swift */,
+				D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			children = (
 				D710E84721905C8400F48AD0 /* Webservice.swift */,
 				D710E864219089ED00F48AD0 /* WebService+Datasets.swift */,
+				D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -543,8 +549,10 @@
 				D710E8072190583F00F48AD0 /* AppDelegate.swift in Sources */,
 				D710E83E21905B7600F48AD0 /* CodableParser.swift in Sources */,
 				D710E859219066C000F48AD0 /* DatasetsViewController.swift in Sources */,
+				D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */,
 				D710E84221905C1000F48AD0 /* AppfyGenericRouterEnum.swift in Sources */,
 				D710E83A21905B3000F48AD0 /* UserDefaults+Properties.swift in Sources */,
+				D710E8692190C3B400F48AD0 /* WebService+GastosDiretos.swift in Sources */,
 				D710E85B219066C000F48AD0 /* DatasetsViewController+DisplayLogic.swift in Sources */,
 				D710E858219066C000F48AD0 /* DatasetsModels.swift in Sources */,
 				D710E84421905C4C00F48AD0 /* AppfyRequestAdapter.swift in Sources */,

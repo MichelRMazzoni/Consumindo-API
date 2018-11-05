@@ -32,6 +32,7 @@ enum Datasets {
             struct DatasetListDisplay {
                 let name: String
                 let description: String
+                let id: String
             }
             
             struct Success {
