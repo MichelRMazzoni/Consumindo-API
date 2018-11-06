@@ -240,13 +240,44 @@
                         <outlet property="btnProUni" destination="f3J-UM-TYx" id="t6H-8W-co9"/>
                         <outlet property="btnSalarioMagistrados" destination="WFk-25-2hC" id="D9O-oX-85n"/>
                         <segue destination="y3l-gH-oQR" kind="show" identifier="pushGastosDiretos" id="4VG-Tb-o0a"/>
+                        <segue destination="woO-ck-DvW" kind="show" id="CYp-bY-pXf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i90-jD-5KT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44" y="26.53673163418291"/>
         </scene>
-        <!--Gastos diretos do governo federal-->
+        <!--Salários dos Magistrados-->
+        <scene sceneID="3RT-JJ-W42">
+            <objects>
+                <viewController id="woO-ck-DvW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bFI-JT-WHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pKO-Zp-nor">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pKO-Zp-nor" firstAttribute="trailing" secondItem="SyT-oT-NRP" secondAttribute="trailing" id="2Xf-8p-PlH"/>
+                            <constraint firstItem="pKO-Zp-nor" firstAttribute="top" secondItem="SyT-oT-NRP" secondAttribute="top" id="5aB-c6-8TW"/>
+                            <constraint firstItem="pKO-Zp-nor" firstAttribute="bottom" secondItem="SyT-oT-NRP" secondAttribute="bottom" id="WGW-gS-q0c"/>
+                            <constraint firstItem="pKO-Zp-nor" firstAttribute="leading" secondItem="SyT-oT-NRP" secondAttribute="leading" id="udM-F0-N3Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SyT-oT-NRP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Salários dos Magistrados" id="Fqc-yZ-w8D">
+                        <barButtonItem key="backBarButtonItem" title=" " id="bOR-rg-cYi"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wgm-ll-PvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.60000000000002" y="26.53673163418291"/>
+        </scene>
+        <!--Gastos Diretos do Governo Federal-->
         <scene sceneID="c2b-OG-dP3">
             <objects>
                 <viewController id="y3l-gH-oQR" customClass="GastosDiretosViewController" customModule="BrasilClean" customModuleProvider="target" sceneMemberID="viewController">
@@ -268,7 +299,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8RN-Nm-mrQ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Gastos diretos do governo federal" id="7dR-O5-yuk"/>
+                    <navigationItem key="navigationItem" title="Gastos Diretos do Governo Federal" id="7dR-O5-yuk"/>
                     <connections>
                         <outlet property="tableView" destination="N1x-hX-bqR" id="iOc-RW-J7L"/>
                     </connections>

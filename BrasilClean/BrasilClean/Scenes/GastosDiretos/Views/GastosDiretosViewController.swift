@@ -40,6 +40,10 @@ class GastosDiretosViewController: UIViewController {
         getGastos()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        SVProgressHUD.dismiss()
+    }
+    
     func getGastos(){
         showSpinner()
         let request = GastosDiretosList.GastosList.Request()

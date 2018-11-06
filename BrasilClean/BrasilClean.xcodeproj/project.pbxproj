@@ -56,6 +56,18 @@
 		D710E8922191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */; };
 		D710E8932191C0F400F48AD0 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */; };
 		D742C45A2191CDF400A45C3A /* GastosDiretos+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */; };
+		D7B880BA21920FF50095EA87 /* SalarioMagistrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */; };
+		D7B880BC2192121D0095EA87 /* WebService+SalarioMagistrados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */; };
+		D7B880C8219213420095EA87 /* SalariosMagistradosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C0219213420095EA87 /* SalariosMagistradosPresenter.swift */; };
+		D7B880C9219213420095EA87 /* SalariosMagistradosWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C1219213420095EA87 /* SalariosMagistradosWorker.swift */; };
+		D7B880CA219213420095EA87 /* SalariosMagistradosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C2219213420095EA87 /* SalariosMagistradosRouter.swift */; };
+		D7B880CB219213420095EA87 /* SalariosMagistradosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C3219213420095EA87 /* SalariosMagistradosModels.swift */; };
+		D7B880CC219213420095EA87 /* SalariosMagistradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C4219213420095EA87 /* SalariosMagistradosViewController.swift */; };
+		D7B880CD219213420095EA87 /* SalariosMagistradosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C5219213420095EA87 /* SalariosMagistradosInteractor.swift */; };
+		D7B880CE219213420095EA87 /* SalariosMagistradosViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C6219213420095EA87 /* SalariosMagistradosViewController+DisplayLogic.swift */; };
+		D7B880CF219213420095EA87 /* SalariosMagistradosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C7219213420095EA87 /* SalariosMagistradosConfigurator.swift */; };
+		D7B880D2219215280095EA87 /* SalariosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880D0219215280095EA87 /* SalariosTableViewCell.swift */; };
+		D7B880D3219215280095EA87 /* SalariosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B880D1219215280095EA87 /* SalariosTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +148,18 @@
 		D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
 		D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
 		D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDiretos+TableView.swift"; sourceTree = "<group>"; };
+		D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalarioMagistrado.swift; sourceTree = "<group>"; };
+		D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+SalarioMagistrados.swift"; sourceTree = "<group>"; };
+		D7B880C0219213420095EA87 /* SalariosMagistradosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosPresenter.swift; sourceTree = "<group>"; };
+		D7B880C1219213420095EA87 /* SalariosMagistradosWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosWorker.swift; sourceTree = "<group>"; };
+		D7B880C2219213420095EA87 /* SalariosMagistradosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosRouter.swift; sourceTree = "<group>"; };
+		D7B880C3219213420095EA87 /* SalariosMagistradosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosModels.swift; sourceTree = "<group>"; };
+		D7B880C4219213420095EA87 /* SalariosMagistradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosViewController.swift; sourceTree = "<group>"; };
+		D7B880C5219213420095EA87 /* SalariosMagistradosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosInteractor.swift; sourceTree = "<group>"; };
+		D7B880C6219213420095EA87 /* SalariosMagistradosViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SalariosMagistradosViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
+		D7B880C7219213420095EA87 /* SalariosMagistradosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosConfigurator.swift; sourceTree = "<group>"; };
+		D7B880D0219215280095EA87 /* SalariosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosTableViewCell.swift; sourceTree = "<group>"; };
+		D7B880D1219215280095EA87 /* SalariosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SalariosTableViewCell.xib; sourceTree = "<group>"; };
 		E74557A1FE309C900D2D6C32 /* Pods-BrasilCleanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrasilCleanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrasilCleanTests/Pods-BrasilCleanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +274,7 @@
 			children = (
 				D710E8492190648000F48AD0 /* Datasets.swift */,
 				D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */,
+				D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +290,7 @@
 		D710E83721905A0D00F48AD0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				D7B880BD219213120095EA87 /* SalariosMagistrados */,
 				D710E86A2191A1FC00F48AD0 /* GastosDiretos */,
 				D710E84B2190668700F48AD0 /* Datasets */,
 				D710E8832191C0AA00F48AD0 /* Home */,
@@ -313,6 +339,7 @@
 				D710E84721905C8400F48AD0 /* Webservice.swift */,
 				D710E864219089ED00F48AD0 /* WebService+Datasets.swift */,
 				D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */,
+				D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -406,6 +433,39 @@
 				D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D7B880BD219213120095EA87 /* SalariosMagistrados */ = {
+			isa = PBXGroup;
+			children = (
+				D7B880BE2192131A0095EA87 /* Views */,
+				D7B880C0219213420095EA87 /* SalariosMagistradosPresenter.swift */,
+				D7B880C1219213420095EA87 /* SalariosMagistradosWorker.swift */,
+				D7B880C2219213420095EA87 /* SalariosMagistradosRouter.swift */,
+				D7B880C3219213420095EA87 /* SalariosMagistradosModels.swift */,
+				D7B880C5219213420095EA87 /* SalariosMagistradosInteractor.swift */,
+				D7B880C7219213420095EA87 /* SalariosMagistradosConfigurator.swift */,
+			);
+			path = SalariosMagistrados;
+			sourceTree = "<group>";
+		};
+		D7B880BE2192131A0095EA87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7B880C4219213420095EA87 /* SalariosMagistradosViewController.swift */,
+				D7B880C6219213420095EA87 /* SalariosMagistradosViewController+DisplayLogic.swift */,
+				D7B880BF219213240095EA87 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7B880BF219213240095EA87 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D7B880D0219215280095EA87 /* SalariosTableViewCell.swift */,
+				D7B880D1219215280095EA87 /* SalariosTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F7FB0FF3741B1DBC990643E8 /* Frameworks */ = {
@@ -531,6 +591,7 @@
 				D710E80E2190584B00F48AD0 /* Assets.xcassets in Resources */,
 				D710E861219076B100F48AD0 /* DatasetsTableViewCell.xib in Resources */,
 				D710E80C2190584000F48AD0 /* Main.storyboard in Resources */,
+				D7B880D3219215280095EA87 /* SalariosTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,8 +706,13 @@
 				D710E88C2191C0F400F48AD0 /* HomePresenter.swift in Sources */,
 				D710E84821905C8400F48AD0 /* Webservice.swift in Sources */,
 				D710E8902191C0F400F48AD0 /* HomeViewController.swift in Sources */,
+				D7B880CA219213420095EA87 /* SalariosMagistradosRouter.swift in Sources */,
 				D710E856219066C000F48AD0 /* DatasetsWorker.swift in Sources */,
+				D7B880CB219213420095EA87 /* SalariosMagistradosModels.swift in Sources */,
+				D7B880BA21920FF50095EA87 /* SalarioMagistrado.swift in Sources */,
+				D7B880C8219213420095EA87 /* SalariosMagistradosPresenter.swift in Sources */,
 				D710E84A2190648000F48AD0 /* Datasets.swift in Sources */,
+				D7B880C9219213420095EA87 /* SalariosMagistradosWorker.swift in Sources */,
 				D710E8742191A25500F48AD0 /* GastosDiretosWorker.swift in Sources */,
 				D710E865219089ED00F48AD0 /* WebService+Datasets.swift in Sources */,
 				D710E8072190583F00F48AD0 /* AppDelegate.swift in Sources */,
@@ -658,6 +724,7 @@
 				D710E83E21905B7600F48AD0 /* CodableParser.swift in Sources */,
 				D710E88D2191C0F400F48AD0 /* HomeWorker.swift in Sources */,
 				D710E859219066C000F48AD0 /* DatasetsViewController.swift in Sources */,
+				D7B880CC219213420095EA87 /* SalariosMagistradosViewController.swift in Sources */,
 				D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */,
 				D710E84221905C1000F48AD0 /* AppfyGenericRouterEnum.swift in Sources */,
 				D710E83A21905B3000F48AD0 /* UserDefaults+Properties.swift in Sources */,
@@ -670,13 +737,18 @@
 				D710E8772191A25500F48AD0 /* GastosDiretosViewController.swift in Sources */,
 				D710E84421905C4C00F48AD0 /* AppfyRequestAdapter.swift in Sources */,
 				D710E87A2191A25500F48AD0 /* GastosDiretosConfigurator.swift in Sources */,
+				D7B880BC2192121D0095EA87 /* WebService+SalarioMagistrados.swift in Sources */,
 				D710E8762191A25500F48AD0 /* GastosDiretosModels.swift in Sources */,
 				D710E860219076B100F48AD0 /* DatasetsTableViewCell.swift in Sources */,
+				D7B880CE219213420095EA87 /* SalariosMagistradosViewController+DisplayLogic.swift in Sources */,
 				D710E855219066C000F48AD0 /* DatasetsPresenter.swift in Sources */,
+				D7B880D2219215280095EA87 /* SalariosTableViewCell.swift in Sources */,
+				D7B880CD219213420095EA87 /* SalariosMagistradosInteractor.swift in Sources */,
 				D710E857219066C000F48AD0 /* DatasetsRouter.swift in Sources */,
 				D710E8922191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift in Sources */,
 				D710E86321907FE800F48AD0 /* Datasets+TableView.swift in Sources */,
 				D710E85A219066C000F48AD0 /* DatasetsInteractor.swift in Sources */,
+				D7B880CF219213420095EA87 /* SalariosMagistradosConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
