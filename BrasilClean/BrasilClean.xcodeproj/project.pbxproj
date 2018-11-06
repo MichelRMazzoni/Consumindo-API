@@ -37,6 +37,25 @@
 		D710E865219089ED00F48AD0 /* WebService+Datasets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E864219089ED00F48AD0 /* WebService+Datasets.swift */; };
 		D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */; };
 		D710E8692190C3B400F48AD0 /* WebService+GastosDiretos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */; };
+		D710E8732191A25500F48AD0 /* GastosDiretosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86B2191A25500F48AD0 /* GastosDiretosPresenter.swift */; };
+		D710E8742191A25500F48AD0 /* GastosDiretosWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86C2191A25500F48AD0 /* GastosDiretosWorker.swift */; };
+		D710E8752191A25500F48AD0 /* GastosDiretosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86D2191A25500F48AD0 /* GastosDiretosRouter.swift */; };
+		D710E8762191A25500F48AD0 /* GastosDiretosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86E2191A25500F48AD0 /* GastosDiretosModels.swift */; };
+		D710E8772191A25500F48AD0 /* GastosDiretosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E86F2191A25500F48AD0 /* GastosDiretosViewController.swift */; };
+		D710E8782191A25500F48AD0 /* GastosDiretosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8702191A25500F48AD0 /* GastosDiretosInteractor.swift */; };
+		D710E8792191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8712191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift */; };
+		D710E87A2191A25500F48AD0 /* GastosDiretosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8722191A25500F48AD0 /* GastosDiretosConfigurator.swift */; };
+		D710E87F2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E87D2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift */; };
+		D710E8802191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D710E87E2191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib */; };
+		D710E88C2191C0F400F48AD0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8842191C0F300F48AD0 /* HomePresenter.swift */; };
+		D710E88D2191C0F400F48AD0 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8852191C0F400F48AD0 /* HomeWorker.swift */; };
+		D710E88E2191C0F400F48AD0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8862191C0F400F48AD0 /* HomeRouter.swift */; };
+		D710E88F2191C0F400F48AD0 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8872191C0F400F48AD0 /* HomeModels.swift */; };
+		D710E8902191C0F400F48AD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8882191C0F400F48AD0 /* HomeViewController.swift */; };
+		D710E8912191C0F400F48AD0 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E8892191C0F400F48AD0 /* HomeInteractor.swift */; };
+		D710E8922191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */; };
+		D710E8932191C0F400F48AD0 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */; };
+		D742C45A2191CDF400A45C3A /* GastosDiretos+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +117,25 @@
 		D710E864219089ED00F48AD0 /* WebService+Datasets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Datasets.swift"; sourceTree = "<group>"; };
 		D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretos.swift; sourceTree = "<group>"; };
 		D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+GastosDiretos.swift"; sourceTree = "<group>"; };
+		D710E86B2191A25500F48AD0 /* GastosDiretosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosPresenter.swift; sourceTree = "<group>"; };
+		D710E86C2191A25500F48AD0 /* GastosDiretosWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosWorker.swift; sourceTree = "<group>"; };
+		D710E86D2191A25500F48AD0 /* GastosDiretosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosRouter.swift; sourceTree = "<group>"; };
+		D710E86E2191A25500F48AD0 /* GastosDiretosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosModels.swift; sourceTree = "<group>"; };
+		D710E86F2191A25500F48AD0 /* GastosDiretosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosViewController.swift; sourceTree = "<group>"; };
+		D710E8702191A25500F48AD0 /* GastosDiretosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosInteractor.swift; sourceTree = "<group>"; };
+		D710E8712191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDiretosViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
+		D710E8722191A25500F48AD0 /* GastosDiretosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosConfigurator.swift; sourceTree = "<group>"; };
+		D710E87D2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDiretosTableViewCell.swift; sourceTree = "<group>"; };
+		D710E87E2191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GastosDiretosTableViewCell.xib; sourceTree = "<group>"; };
+		D710E8842191C0F300F48AD0 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D710E8852191C0F400F48AD0 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		D710E8862191C0F400F48AD0 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		D710E8872191C0F400F48AD0 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		D710E8882191C0F400F48AD0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D710E8892191C0F400F48AD0 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
+		D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
+		D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDiretos+TableView.swift"; sourceTree = "<group>"; };
 		E74557A1FE309C900D2D6C32 /* Pods-BrasilCleanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrasilCleanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrasilCleanTests/Pods-BrasilCleanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,7 +265,9 @@
 		D710E83721905A0D00F48AD0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				D710E86A2191A1FC00F48AD0 /* GastosDiretos */,
 				D710E84B2190668700F48AD0 /* Datasets */,
+				D710E8832191C0AA00F48AD0 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -309,6 +349,63 @@
 				D710E86221907FE800F48AD0 /* Datasets+TableView.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D710E86A2191A1FC00F48AD0 /* GastosDiretos */ = {
+			isa = PBXGroup;
+			children = (
+				D710E87B2191A4D300F48AD0 /* Views */,
+				D710E86B2191A25500F48AD0 /* GastosDiretosPresenter.swift */,
+				D710E86C2191A25500F48AD0 /* GastosDiretosWorker.swift */,
+				D710E86D2191A25500F48AD0 /* GastosDiretosRouter.swift */,
+				D710E86E2191A25500F48AD0 /* GastosDiretosModels.swift */,
+				D710E8702191A25500F48AD0 /* GastosDiretosInteractor.swift */,
+				D710E8722191A25500F48AD0 /* GastosDiretosConfigurator.swift */,
+			);
+			path = GastosDiretos;
+			sourceTree = "<group>";
+		};
+		D710E87B2191A4D300F48AD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D710E86F2191A25500F48AD0 /* GastosDiretosViewController.swift */,
+				D710E8712191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift */,
+				D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */,
+				D710E87C2191A4D900F48AD0 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D710E87C2191A4D900F48AD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D710E87D2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift */,
+				D710E87E2191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D710E8832191C0AA00F48AD0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D710E8942191C10200F48AD0 /* Views */,
+				D710E8842191C0F300F48AD0 /* HomePresenter.swift */,
+				D710E8852191C0F400F48AD0 /* HomeWorker.swift */,
+				D710E8862191C0F400F48AD0 /* HomeRouter.swift */,
+				D710E8872191C0F400F48AD0 /* HomeModels.swift */,
+				D710E8892191C0F400F48AD0 /* HomeInteractor.swift */,
+				D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D710E8942191C10200F48AD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D710E8882191C0F400F48AD0 /* HomeViewController.swift */,
+				D710E88A2191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F7FB0FF3741B1DBC990643E8 /* Frameworks */ = {
@@ -429,6 +526,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D710E8802191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib in Resources */,
 				D710E8112190584B00F48AD0 /* LaunchScreen.storyboard in Resources */,
 				D710E80E2190584B00F48AD0 /* Assets.xcassets in Resources */,
 				D710E861219076B100F48AD0 /* DatasetsTableViewCell.xib in Resources */,
@@ -542,23 +640,41 @@
 			files = (
 				D710E84621905C6400F48AD0 /* AppfyRequestRetrier.swift in Sources */,
 				D710E85C219066C000F48AD0 /* DatasetsConfigurator.swift in Sources */,
+				D710E87F2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift in Sources */,
+				D710E8932191C0F400F48AD0 /* HomeConfigurator.swift in Sources */,
+				D710E88C2191C0F400F48AD0 /* HomePresenter.swift in Sources */,
 				D710E84821905C8400F48AD0 /* Webservice.swift in Sources */,
+				D710E8902191C0F400F48AD0 /* HomeViewController.swift in Sources */,
 				D710E856219066C000F48AD0 /* DatasetsWorker.swift in Sources */,
 				D710E84A2190648000F48AD0 /* Datasets.swift in Sources */,
+				D710E8742191A25500F48AD0 /* GastosDiretosWorker.swift in Sources */,
 				D710E865219089ED00F48AD0 /* WebService+Datasets.swift in Sources */,
 				D710E8072190583F00F48AD0 /* AppDelegate.swift in Sources */,
+				D710E88E2191C0F400F48AD0 /* HomeRouter.swift in Sources */,
+				D710E8752191A25500F48AD0 /* GastosDiretosRouter.swift in Sources */,
+				D710E8782191A25500F48AD0 /* GastosDiretosInteractor.swift in Sources */,
+				D710E8792191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift in Sources */,
+				D710E8912191C0F400F48AD0 /* HomeInteractor.swift in Sources */,
 				D710E83E21905B7600F48AD0 /* CodableParser.swift in Sources */,
+				D710E88D2191C0F400F48AD0 /* HomeWorker.swift in Sources */,
 				D710E859219066C000F48AD0 /* DatasetsViewController.swift in Sources */,
 				D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */,
 				D710E84221905C1000F48AD0 /* AppfyGenericRouterEnum.swift in Sources */,
 				D710E83A21905B3000F48AD0 /* UserDefaults+Properties.swift in Sources */,
+				D742C45A2191CDF400A45C3A /* GastosDiretos+TableView.swift in Sources */,
 				D710E8692190C3B400F48AD0 /* WebService+GastosDiretos.swift in Sources */,
 				D710E85B219066C000F48AD0 /* DatasetsViewController+DisplayLogic.swift in Sources */,
+				D710E88F2191C0F400F48AD0 /* HomeModels.swift in Sources */,
+				D710E8732191A25500F48AD0 /* GastosDiretosPresenter.swift in Sources */,
 				D710E858219066C000F48AD0 /* DatasetsModels.swift in Sources */,
+				D710E8772191A25500F48AD0 /* GastosDiretosViewController.swift in Sources */,
 				D710E84421905C4C00F48AD0 /* AppfyRequestAdapter.swift in Sources */,
+				D710E87A2191A25500F48AD0 /* GastosDiretosConfigurator.swift in Sources */,
+				D710E8762191A25500F48AD0 /* GastosDiretosModels.swift in Sources */,
 				D710E860219076B100F48AD0 /* DatasetsTableViewCell.swift in Sources */,
 				D710E855219066C000F48AD0 /* DatasetsPresenter.swift in Sources */,
 				D710E857219066C000F48AD0 /* DatasetsRouter.swift in Sources */,
+				D710E8922191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift in Sources */,
 				D710E86321907FE800F48AD0 /* Datasets+TableView.swift in Sources */,
 				D710E85A219066C000F48AD0 /* DatasetsInteractor.swift in Sources */,
 			);

@@ -19,11 +19,11 @@ extension Webservice {
 
 extension Webservice.GetGastosDiretos {
     
-    static func getDetails() -> Promise<[GastosDetails]> {
+    static func getGastosDiretosList() -> Promise<[GastosDetails]> {
         return Promise.init { seal in
             
             
-            let request = ""
+            let request = "https://brasil.io/api/dataset/gastos-diretos/gastos/data"
             
             Alamofire.request(request, method: .get).responseJSON(completionHandler: { (response) in
                 

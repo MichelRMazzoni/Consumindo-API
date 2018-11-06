@@ -21,5 +21,4 @@ class DatasetsRouter: NSObject, DatasetsRoutingLogic, DatasetsDataPassing {
     // Var's
     weak var viewController: DatasetsViewController?
     var dataStore: DatasetsDataStore?
-
 }
