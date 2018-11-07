@@ -7,17 +7,10 @@
 //
 
 import UIKit
-
-protocol SalariosMagistradosWorkerLogic {
-
-}
+import PromiseKit
 
 class SalariosMagistradosWorker {
-
-    private let service: SalariosMagistradosWorkerLogic
-
-    init(service: SalariosMagistradosWorkerLogic) {
-        self.service = service
+    func getSalariosMagistrados() -> Promise<[SalariosDetails]> {
+        return Webservice.GetSalarioMagistrados.getSalarioMagistrados()
     }
-
 }

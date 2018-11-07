@@ -44,6 +44,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func actionSalarioMagistrados(_ sender: UIButton) {
         print("actionSalarioMagistrados")
+        self.performSegue(withIdentifier: "pushSalariosMagistrados", sender: nil)
     }
     
     @IBAction func actionGastosDeputados(_ sender: UIButton) {

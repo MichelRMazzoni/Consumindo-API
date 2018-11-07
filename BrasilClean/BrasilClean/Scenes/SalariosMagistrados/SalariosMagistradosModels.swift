@@ -8,6 +8,47 @@
 
 import UIKit
 
-enum SalariosMagistrados {
+enum SalariosMagistradosList {
 
+    enum Salarioslist {
+        struct Request {
+            
+        }
+        
+        struct Response {
+            
+            struct Success {
+                let salariosList: [SalariosDetails]
+            }
+            
+            struct Failure {
+                let error: Error
+            }
+            
+        }
+        
+        struct ViewModel {
+            
+            struct SalariosDisplay {
+                let nome: String
+                let cargo: String
+                let lotacao: String
+                let diarias: String
+                let indenizacoes: String
+                let descontos: String
+                let totalRendimentos: String
+                let totalLiquido: String
+            }
+            
+            struct Success {
+                let items: [SalariosDisplay]
+            }
+            
+            struct Failure {
+                let message: String
+            }
+            
+        }
+    }
+    
 }

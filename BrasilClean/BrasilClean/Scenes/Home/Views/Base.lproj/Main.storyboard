@@ -240,7 +240,7 @@
                         <outlet property="btnProUni" destination="f3J-UM-TYx" id="t6H-8W-co9"/>
                         <outlet property="btnSalarioMagistrados" destination="WFk-25-2hC" id="D9O-oX-85n"/>
                         <segue destination="y3l-gH-oQR" kind="show" identifier="pushGastosDiretos" id="4VG-Tb-o0a"/>
-                        <segue destination="woO-ck-DvW" kind="show" id="CYp-bY-pXf"/>
+                        <segue destination="woO-ck-DvW" kind="show" identifier="pushSalariosMagistrados" id="CYp-bY-pXf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i90-jD-5KT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -250,7 +250,7 @@
         <!--Salários dos Magistrados-->
         <scene sceneID="3RT-JJ-W42">
             <objects>
-                <viewController id="woO-ck-DvW" sceneMemberID="viewController">
+                <viewController id="woO-ck-DvW" customClass="SalariosMagistradosViewController" customModule="BrasilClean" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bFI-JT-WHJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -272,6 +272,9 @@
                     <navigationItem key="navigationItem" title="Salários dos Magistrados" id="Fqc-yZ-w8D">
                         <barButtonItem key="backBarButtonItem" title=" " id="bOR-rg-cYi"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="pKO-Zp-nor" id="76a-9C-SBu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgm-ll-PvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

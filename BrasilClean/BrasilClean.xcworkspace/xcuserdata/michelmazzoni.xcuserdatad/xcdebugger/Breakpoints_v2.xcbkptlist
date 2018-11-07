@@ -147,5 +147,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BrasilClean/Services/WebService/WebService+SalarioMagistrados.swift"
+            timestampString = "563284193.73836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getSalarioMagistrados()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in closure #1 (PromiseKit.Resolver&lt;Swift.Array&lt;BrasilClean.SalariosDetails&gt;&gt;) -&gt; () in static BrasilClean.Webservice.GetSalarioMagistrados.getSalarioMagistrados() -&gt; PromiseKit.Promise&lt;Swift.Array&lt;BrasilClean.SalariosDetails&gt;&gt;"
+                  moduleName = "BrasilClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michelmazzoni/Documents/GitHub/BrasilClean/BrasilClean/Services/WebService/WebService+SalarioMagistrados.swift"
+                  timestampString = "563283258.8415461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in closure #1 (PromiseKit.Resolver&lt;Swift.Array&lt;BrasilClean.SalariosDetails&gt;&gt;) -&gt; () in static BrasilClean.Webservice.GetSalarioMagistrados.getSalarioMagistrados() -&gt; PromiseKit.Promise&lt;Swift.Array&lt;BrasilClean.SalariosDetails&gt;&gt;"
+                  moduleName = "BrasilClean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michelmazzoni/Documents/GitHub/BrasilClean/BrasilClean/Services/WebService/WebService+SalarioMagistrados.swift"
+                  timestampString = "563283258.84357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
