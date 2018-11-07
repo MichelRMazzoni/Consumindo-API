@@ -49,10 +49,12 @@ class HomeViewController: UIViewController {
     
     @IBAction func actionGastosDeputados(_ sender: UIButton) {
         print("actionGastosDeputados")
+        self.performSegue(withIdentifier: "pushGastosDeputados", sender: nil)
     }
     
     @IBAction func actionProUni(_ sender: UIButton) {
         print("actionProUni")
+        self.performSegue(withIdentifier: "pushProuni", sender: nil)
     }
 
 }

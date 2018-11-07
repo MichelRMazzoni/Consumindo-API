@@ -57,6 +57,32 @@
 		D710E8932191C0F400F48AD0 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */; };
 		D742C45A2191CDF400A45C3A /* GastosDiretos+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */; };
 		D747CBA82192FD9800561000 /* Salarios+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBA72192FD9800561000 /* Salarios+TableView.swift */; };
+		D747CBAA2193157F00561000 /* GastosDeputados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBA92193157F00561000 /* GastosDeputados.swift */; };
+		D747CBAC219318B300561000 /* WebService+GastosDeputados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBAB219318B300561000 /* WebService+GastosDeputados.swift */; };
+		D747CBB8219319E900561000 /* GastosDeputadosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB0219319E900561000 /* GastosDeputadosPresenter.swift */; };
+		D747CBB9219319E900561000 /* GastosDeputadosWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB1219319E900561000 /* GastosDeputadosWorker.swift */; };
+		D747CBBA219319E900561000 /* GastosDeputadosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB2219319E900561000 /* GastosDeputadosRouter.swift */; };
+		D747CBBB219319E900561000 /* GastosDeputadosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB3219319E900561000 /* GastosDeputadosModels.swift */; };
+		D747CBBC219319E900561000 /* GastosDeputadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB4219319E900561000 /* GastosDeputadosViewController.swift */; };
+		D747CBBD219319E900561000 /* GastosDeputadosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB5219319E900561000 /* GastosDeputadosInteractor.swift */; };
+		D747CBBE219319E900561000 /* GastosDeputadosViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB6219319E900561000 /* GastosDeputadosViewController+DisplayLogic.swift */; };
+		D747CBBF219319E900561000 /* GastosDeputadosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBB7219319E900561000 /* GastosDeputadosConfigurator.swift */; };
+		D747CBC121931A0A00561000 /* GastosDeputados+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBC021931A0A00561000 /* GastosDeputados+TableView.swift */; };
+		D747CBC421931A2B00561000 /* GastosDeputadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBC221931A2B00561000 /* GastosDeputadosTableViewCell.swift */; };
+		D747CBC521931A2B00561000 /* GastosDeputadosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D747CBC321931A2B00561000 /* GastosDeputadosTableViewCell.xib */; };
+		D747CBD12193445300561000 /* ProUniPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBC92193445300561000 /* ProUniPresenter.swift */; };
+		D747CBD22193445300561000 /* ProUniWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCA2193445300561000 /* ProUniWorker.swift */; };
+		D747CBD32193445300561000 /* ProUniRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCB2193445300561000 /* ProUniRouter.swift */; };
+		D747CBD42193445300561000 /* ProUniModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCC2193445300561000 /* ProUniModels.swift */; };
+		D747CBD52193445300561000 /* ProUniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCD2193445300561000 /* ProUniViewController.swift */; };
+		D747CBD62193445300561000 /* ProUniInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCE2193445300561000 /* ProUniInteractor.swift */; };
+		D747CBD72193445300561000 /* ProUniViewController+DisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBCF2193445300561000 /* ProUniViewController+DisplayLogic.swift */; };
+		D747CBD82193445300561000 /* ProUniConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBD02193445300561000 /* ProUniConfigurator.swift */; };
+		D747CBDB2193449400561000 /* ProUniTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBD92193449400561000 /* ProUniTableViewCell.swift */; };
+		D747CBDC2193449400561000 /* ProUniTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D747CBDA2193449400561000 /* ProUniTableViewCell.xib */; };
+		D747CBDE219344AC00561000 /* ProUni.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBDD219344AC00561000 /* ProUni.swift */; };
+		D747CBE0219344C500561000 /* WebService+ProUni.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBDF219344C500561000 /* WebService+ProUni.swift */; };
+		D747CBE2219353ED00561000 /* ProUni+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747CBE1219353ED00561000 /* ProUni+TableView.swift */; };
 		D7B880BA21920FF50095EA87 /* SalarioMagistrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */; };
 		D7B880BC2192121D0095EA87 /* WebService+SalarioMagistrados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */; };
 		D7B880C8219213420095EA87 /* SalariosMagistradosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B880C0219213420095EA87 /* SalariosMagistradosPresenter.swift */; };
@@ -150,6 +176,32 @@
 		D710E88B2191C0F400F48AD0 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
 		D742C4592191CDF400A45C3A /* GastosDiretos+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDiretos+TableView.swift"; sourceTree = "<group>"; };
 		D747CBA72192FD9800561000 /* Salarios+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Salarios+TableView.swift"; sourceTree = "<group>"; };
+		D747CBA92193157F00561000 /* GastosDeputados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputados.swift; sourceTree = "<group>"; };
+		D747CBAB219318B300561000 /* WebService+GastosDeputados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+GastosDeputados.swift"; sourceTree = "<group>"; };
+		D747CBB0219319E900561000 /* GastosDeputadosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosPresenter.swift; sourceTree = "<group>"; };
+		D747CBB1219319E900561000 /* GastosDeputadosWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosWorker.swift; sourceTree = "<group>"; };
+		D747CBB2219319E900561000 /* GastosDeputadosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosRouter.swift; sourceTree = "<group>"; };
+		D747CBB3219319E900561000 /* GastosDeputadosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosModels.swift; sourceTree = "<group>"; };
+		D747CBB4219319E900561000 /* GastosDeputadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosViewController.swift; sourceTree = "<group>"; };
+		D747CBB5219319E900561000 /* GastosDeputadosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosInteractor.swift; sourceTree = "<group>"; };
+		D747CBB6219319E900561000 /* GastosDeputadosViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDeputadosViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
+		D747CBB7219319E900561000 /* GastosDeputadosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosConfigurator.swift; sourceTree = "<group>"; };
+		D747CBC021931A0A00561000 /* GastosDeputados+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GastosDeputados+TableView.swift"; sourceTree = "<group>"; };
+		D747CBC221931A2B00561000 /* GastosDeputadosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosDeputadosTableViewCell.swift; sourceTree = "<group>"; };
+		D747CBC321931A2B00561000 /* GastosDeputadosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GastosDeputadosTableViewCell.xib; sourceTree = "<group>"; };
+		D747CBC92193445300561000 /* ProUniPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniPresenter.swift; sourceTree = "<group>"; };
+		D747CBCA2193445300561000 /* ProUniWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniWorker.swift; sourceTree = "<group>"; };
+		D747CBCB2193445300561000 /* ProUniRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniRouter.swift; sourceTree = "<group>"; };
+		D747CBCC2193445300561000 /* ProUniModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniModels.swift; sourceTree = "<group>"; };
+		D747CBCD2193445300561000 /* ProUniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniViewController.swift; sourceTree = "<group>"; };
+		D747CBCE2193445300561000 /* ProUniInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniInteractor.swift; sourceTree = "<group>"; };
+		D747CBCF2193445300561000 /* ProUniViewController+DisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProUniViewController+DisplayLogic.swift"; sourceTree = "<group>"; };
+		D747CBD02193445300561000 /* ProUniConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniConfigurator.swift; sourceTree = "<group>"; };
+		D747CBD92193449400561000 /* ProUniTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUniTableViewCell.swift; sourceTree = "<group>"; };
+		D747CBDA2193449400561000 /* ProUniTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProUniTableViewCell.xib; sourceTree = "<group>"; };
+		D747CBDD219344AC00561000 /* ProUni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProUni.swift; sourceTree = "<group>"; };
+		D747CBDF219344C500561000 /* WebService+ProUni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+ProUni.swift"; sourceTree = "<group>"; };
+		D747CBE1219353ED00561000 /* ProUni+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProUni+TableView.swift"; sourceTree = "<group>"; };
 		D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalarioMagistrado.swift; sourceTree = "<group>"; };
 		D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+SalarioMagistrados.swift"; sourceTree = "<group>"; };
 		D7B880C0219213420095EA87 /* SalariosMagistradosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariosMagistradosPresenter.swift; sourceTree = "<group>"; };
@@ -276,6 +328,8 @@
 				D710E8492190648000F48AD0 /* Datasets.swift */,
 				D710E8662190BDDC00F48AD0 /* GastosDiretos.swift */,
 				D7B880B921920FF50095EA87 /* SalarioMagistrado.swift */,
+				D747CBA92193157F00561000 /* GastosDeputados.swift */,
+				D747CBDD219344AC00561000 /* ProUni.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,6 +345,8 @@
 		D710E83721905A0D00F48AD0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				D747CBC62193442900561000 /* NotasProUni */,
+				D747CBAD219319A300561000 /* GastosDeputados */,
 				D7B880BD219213120095EA87 /* SalariosMagistrados */,
 				D710E86A2191A1FC00F48AD0 /* GastosDiretos */,
 				D710E84B2190668700F48AD0 /* Datasets */,
@@ -341,6 +397,8 @@
 				D710E864219089ED00F48AD0 /* WebService+Datasets.swift */,
 				D710E8682190C3B400F48AD0 /* WebService+GastosDiretos.swift */,
 				D7B880BB2192121D0095EA87 /* WebService+SalarioMagistrados.swift */,
+				D747CBAB219318B300561000 /* WebService+GastosDeputados.swift */,
+				D747CBDF219344C500561000 /* WebService+ProUni.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -435,6 +493,74 @@
 				D710E80A2190584000F48AD0 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D747CBAD219319A300561000 /* GastosDeputados */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBAE219319AD00561000 /* Views */,
+				D747CBB0219319E900561000 /* GastosDeputadosPresenter.swift */,
+				D747CBB1219319E900561000 /* GastosDeputadosWorker.swift */,
+				D747CBB2219319E900561000 /* GastosDeputadosRouter.swift */,
+				D747CBB3219319E900561000 /* GastosDeputadosModels.swift */,
+				D747CBB5219319E900561000 /* GastosDeputadosInteractor.swift */,
+				D747CBB7219319E900561000 /* GastosDeputadosConfigurator.swift */,
+			);
+			path = GastosDeputados;
+			sourceTree = "<group>";
+		};
+		D747CBAE219319AD00561000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBB4219319E900561000 /* GastosDeputadosViewController.swift */,
+				D747CBB6219319E900561000 /* GastosDeputadosViewController+DisplayLogic.swift */,
+				D747CBC021931A0A00561000 /* GastosDeputados+TableView.swift */,
+				D747CBAF219319B300561000 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D747CBAF219319B300561000 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBC221931A2B00561000 /* GastosDeputadosTableViewCell.swift */,
+				D747CBC321931A2B00561000 /* GastosDeputadosTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D747CBC62193442900561000 /* NotasProUni */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBC72193443500561000 /* Views */,
+				D747CBC92193445300561000 /* ProUniPresenter.swift */,
+				D747CBCA2193445300561000 /* ProUniWorker.swift */,
+				D747CBCB2193445300561000 /* ProUniRouter.swift */,
+				D747CBCC2193445300561000 /* ProUniModels.swift */,
+				D747CBCE2193445300561000 /* ProUniInteractor.swift */,
+				D747CBD02193445300561000 /* ProUniConfigurator.swift */,
+			);
+			path = NotasProUni;
+			sourceTree = "<group>";
+		};
+		D747CBC72193443500561000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBCD2193445300561000 /* ProUniViewController.swift */,
+				D747CBCF2193445300561000 /* ProUniViewController+DisplayLogic.swift */,
+				D747CBE1219353ED00561000 /* ProUni+TableView.swift */,
+				D747CBC82193443B00561000 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D747CBC82193443B00561000 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D747CBD92193449400561000 /* ProUniTableViewCell.swift */,
+				D747CBDA2193449400561000 /* ProUniTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D7B880BD219213120095EA87 /* SalariosMagistrados */ = {
@@ -589,11 +715,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D747CBDC2193449400561000 /* ProUniTableViewCell.xib in Resources */,
 				D710E8802191A4FA00F48AD0 /* GastosDiretosTableViewCell.xib in Resources */,
 				D710E8112190584B00F48AD0 /* LaunchScreen.storyboard in Resources */,
 				D710E80E2190584B00F48AD0 /* Assets.xcassets in Resources */,
 				D710E861219076B100F48AD0 /* DatasetsTableViewCell.xib in Resources */,
 				D710E80C2190584000F48AD0 /* Main.storyboard in Resources */,
+				D747CBC521931A2B00561000 /* GastosDeputadosTableViewCell.xib in Resources */,
 				D7B880D3219215280095EA87 /* SalariosTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,11 +834,20 @@
 				D710E85C219066C000F48AD0 /* DatasetsConfigurator.swift in Sources */,
 				D710E87F2191A4FA00F48AD0 /* GastosDiretosTableViewCell.swift in Sources */,
 				D710E8932191C0F400F48AD0 /* HomeConfigurator.swift in Sources */,
+				D747CBDB2193449400561000 /* ProUniTableViewCell.swift in Sources */,
+				D747CBD22193445300561000 /* ProUniWorker.swift in Sources */,
+				D747CBD52193445300561000 /* ProUniViewController.swift in Sources */,
+				D747CBBD219319E900561000 /* GastosDeputadosInteractor.swift in Sources */,
+				D747CBD12193445300561000 /* ProUniPresenter.swift in Sources */,
+				D747CBD32193445300561000 /* ProUniRouter.swift in Sources */,
 				D710E88C2191C0F400F48AD0 /* HomePresenter.swift in Sources */,
 				D710E84821905C8400F48AD0 /* Webservice.swift in Sources */,
+				D747CBD72193445300561000 /* ProUniViewController+DisplayLogic.swift in Sources */,
+				D747CBBE219319E900561000 /* GastosDeputadosViewController+DisplayLogic.swift in Sources */,
 				D710E8902191C0F400F48AD0 /* HomeViewController.swift in Sources */,
 				D7B880CA219213420095EA87 /* SalariosMagistradosRouter.swift in Sources */,
 				D710E856219066C000F48AD0 /* DatasetsWorker.swift in Sources */,
+				D747CBB9219319E900561000 /* GastosDeputadosWorker.swift in Sources */,
 				D7B880CB219213420095EA87 /* SalariosMagistradosModels.swift in Sources */,
 				D7B880BA21920FF50095EA87 /* SalarioMagistrado.swift in Sources */,
 				D7B880C8219213420095EA87 /* SalariosMagistradosPresenter.swift in Sources */,
@@ -722,22 +859,32 @@
 				D710E88E2191C0F400F48AD0 /* HomeRouter.swift in Sources */,
 				D710E8752191A25500F48AD0 /* GastosDiretosRouter.swift in Sources */,
 				D710E8782191A25500F48AD0 /* GastosDiretosInteractor.swift in Sources */,
+				D747CBE0219344C500561000 /* WebService+ProUni.swift in Sources */,
+				D747CBD62193445300561000 /* ProUniInteractor.swift in Sources */,
 				D710E8792191A25500F48AD0 /* GastosDiretosViewController+DisplayLogic.swift in Sources */,
+				D747CBE2219353ED00561000 /* ProUni+TableView.swift in Sources */,
 				D710E8912191C0F400F48AD0 /* HomeInteractor.swift in Sources */,
 				D710E83E21905B7600F48AD0 /* CodableParser.swift in Sources */,
 				D747CBA82192FD9800561000 /* Salarios+TableView.swift in Sources */,
+				D747CBBF219319E900561000 /* GastosDeputadosConfigurator.swift in Sources */,
 				D710E88D2191C0F400F48AD0 /* HomeWorker.swift in Sources */,
 				D710E859219066C000F48AD0 /* DatasetsViewController.swift in Sources */,
 				D7B880CC219213420095EA87 /* SalariosMagistradosViewController.swift in Sources */,
 				D710E8672190BDDC00F48AD0 /* GastosDiretos.swift in Sources */,
+				D747CBC421931A2B00561000 /* GastosDeputadosTableViewCell.swift in Sources */,
 				D710E84221905C1000F48AD0 /* AppfyGenericRouterEnum.swift in Sources */,
+				D747CBDE219344AC00561000 /* ProUni.swift in Sources */,
 				D710E83A21905B3000F48AD0 /* UserDefaults+Properties.swift in Sources */,
+				D747CBAA2193157F00561000 /* GastosDeputados.swift in Sources */,
+				D747CBB8219319E900561000 /* GastosDeputadosPresenter.swift in Sources */,
 				D742C45A2191CDF400A45C3A /* GastosDiretos+TableView.swift in Sources */,
 				D710E8692190C3B400F48AD0 /* WebService+GastosDiretos.swift in Sources */,
+				D747CBC121931A0A00561000 /* GastosDeputados+TableView.swift in Sources */,
 				D710E85B219066C000F48AD0 /* DatasetsViewController+DisplayLogic.swift in Sources */,
 				D710E88F2191C0F400F48AD0 /* HomeModels.swift in Sources */,
 				D710E8732191A25500F48AD0 /* GastosDiretosPresenter.swift in Sources */,
 				D710E858219066C000F48AD0 /* DatasetsModels.swift in Sources */,
+				D747CBD82193445300561000 /* ProUniConfigurator.swift in Sources */,
 				D710E8772191A25500F48AD0 /* GastosDiretosViewController.swift in Sources */,
 				D710E84421905C4C00F48AD0 /* AppfyRequestAdapter.swift in Sources */,
 				D710E87A2191A25500F48AD0 /* GastosDiretosConfigurator.swift in Sources */,
@@ -748,11 +895,16 @@
 				D710E855219066C000F48AD0 /* DatasetsPresenter.swift in Sources */,
 				D7B880D2219215280095EA87 /* SalariosTableViewCell.swift in Sources */,
 				D7B880CD219213420095EA87 /* SalariosMagistradosInteractor.swift in Sources */,
+				D747CBBA219319E900561000 /* GastosDeputadosRouter.swift in Sources */,
+				D747CBBB219319E900561000 /* GastosDeputadosModels.swift in Sources */,
+				D747CBBC219319E900561000 /* GastosDeputadosViewController.swift in Sources */,
 				D710E857219066C000F48AD0 /* DatasetsRouter.swift in Sources */,
 				D710E8922191C0F400F48AD0 /* HomeViewController+DisplayLogic.swift in Sources */,
+				D747CBAC219318B300561000 /* WebService+GastosDeputados.swift in Sources */,
 				D710E86321907FE800F48AD0 /* Datasets+TableView.swift in Sources */,
 				D710E85A219066C000F48AD0 /* DatasetsInteractor.swift in Sources */,
 				D7B880CF219213420095EA87 /* SalariosMagistradosConfigurator.swift in Sources */,
+				D747CBD42193445300561000 /* ProUniModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

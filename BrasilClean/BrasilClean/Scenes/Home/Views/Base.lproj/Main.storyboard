@@ -241,6 +241,8 @@
                         <outlet property="btnSalarioMagistrados" destination="WFk-25-2hC" id="D9O-oX-85n"/>
                         <segue destination="y3l-gH-oQR" kind="show" identifier="pushGastosDiretos" id="4VG-Tb-o0a"/>
                         <segue destination="woO-ck-DvW" kind="show" identifier="pushSalariosMagistrados" id="CYp-bY-pXf"/>
+                        <segue destination="NBe-QZ-pu3" kind="show" identifier="pushGastosDeputados" id="c4L-Za-Moq"/>
+                        <segue destination="9Qd-Sz-Vf4" kind="show" identifier="pushProuni" id="GSd-vg-7dn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i90-jD-5KT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -255,7 +257,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pKO-Zp-nor">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pKO-Zp-nor">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
@@ -279,6 +281,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgm-ll-PvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="973.60000000000002" y="26.53673163418291"/>
+        </scene>
+        <!--Gastos dos deputados-->
+        <scene sceneID="8Xt-KJ-hrY">
+            <objects>
+                <viewController id="NBe-QZ-pu3" customClass="GastosDeputadosViewController" customModule="BrasilClean" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c4x-R2-bMt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ktE-GU-XvG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ktE-GU-XvG" firstAttribute="leading" secondItem="Eks-Gu-Joq" secondAttribute="leading" id="8xX-uh-xxl"/>
+                            <constraint firstItem="ktE-GU-XvG" firstAttribute="bottom" secondItem="Eks-Gu-Joq" secondAttribute="bottom" id="EkP-ah-rCt"/>
+                            <constraint firstItem="ktE-GU-XvG" firstAttribute="top" secondItem="Eks-Gu-Joq" secondAttribute="top" id="Iip-lv-Zb9"/>
+                            <constraint firstItem="ktE-GU-XvG" firstAttribute="trailing" secondItem="Eks-Gu-Joq" secondAttribute="trailing" id="Qph-DS-bfD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Eks-Gu-Joq"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gastos dos deputados" id="21w-zw-hzX">
+                        <barButtonItem key="backBarButtonItem" title=" " id="7hq-Ty-wvD"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="ktE-GU-XvG" id="PsY-f0-rIF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xse-IX-nRm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.60000000000002" y="774.96251874062978"/>
+        </scene>
+        <!--Notas de corte do PROUNI 2018-->
+        <scene sceneID="dRN-1p-Mc9">
+            <objects>
+                <viewController id="9Qd-Sz-Vf4" customClass="ProUniViewController" customModule="BrasilClean" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JfF-GS-vpO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UrI-8z-TWE">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UrI-8z-TWE" firstAttribute="trailing" secondItem="JVA-gZ-SLD" secondAttribute="trailing" id="4XQ-j9-rC6"/>
+                            <constraint firstItem="UrI-8z-TWE" firstAttribute="leading" secondItem="JVA-gZ-SLD" secondAttribute="leading" id="HQM-qx-YXS"/>
+                            <constraint firstItem="UrI-8z-TWE" firstAttribute="top" secondItem="JVA-gZ-SLD" secondAttribute="top" id="gYQ-Zq-wGA"/>
+                            <constraint firstItem="UrI-8z-TWE" firstAttribute="bottom" secondItem="JVA-gZ-SLD" secondAttribute="bottom" id="nDA-Ei-qYF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JVA-gZ-SLD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Notas de corte do PROUNI 2018" id="dZP-Vu-dhB"/>
+                    <connections>
+                        <outlet property="tableView" destination="UrI-8z-TWE" id="Tam-qe-qCZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D55-WZ-SJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.60000000000002" y="1530.5847076461771"/>
         </scene>
         <!--Gastos Diretos do Governo Federal-->
         <scene sceneID="c2b-OG-dP3">

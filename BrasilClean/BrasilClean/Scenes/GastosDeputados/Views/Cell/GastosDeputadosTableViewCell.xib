@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="gastosDeputadosCell" rowHeight="142" id="KGk-i7-Jjw" customClass="GastosDeputadosTableViewCell" customModule="BrasilClean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nome" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkE-rm-BVa">
+                        <rect key="frame" x="10" y="10" width="300" height="20.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="partido" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOx-9a-Hue">
+                        <rect key="frame" x="10" y="46" width="128" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="estado" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b3-Nw-vpf">
+                        <rect key="frame" x="182" y="46" width="128" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tipo do gasto" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ES-XK-E3G">
+                        <rect key="frame" x="10" y="77" width="300" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="valor documento" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw0-cD-5Oy">
+                        <rect key="frame" x="10" y="108" width="300" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eOx-9a-Hue" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="00U-9N-3mu"/>
+                    <constraint firstItem="gw0-cD-5Oy" firstAttribute="top" secondItem="0ES-XK-E3G" secondAttribute="bottom" constant="15" id="1lk-eN-TAK"/>
+                    <constraint firstAttribute="trailing" secondItem="0ES-XK-E3G" secondAttribute="trailing" constant="10" id="2wP-vu-Nxa"/>
+                    <constraint firstItem="gw0-cD-5Oy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4GB-qO-0jE"/>
+                    <constraint firstItem="0ES-XK-E3G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="7pE-Uq-MSk"/>
+                    <constraint firstAttribute="bottom" secondItem="gw0-cD-5Oy" secondAttribute="bottom" constant="17.5" id="ATz-xb-PhG"/>
+                    <constraint firstItem="eOx-9a-Hue" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="B3S-Bl-0dC"/>
+                    <constraint firstItem="EkE-rm-BVa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="DMs-3d-8IT"/>
+                    <constraint firstAttribute="trailing" secondItem="gw0-cD-5Oy" secondAttribute="trailing" constant="10" id="SwM-7t-24u"/>
+                    <constraint firstItem="0ES-XK-E3G" firstAttribute="top" secondItem="eOx-9a-Hue" secondAttribute="bottom" constant="15" id="Yf9-HI-60b"/>
+                    <constraint firstItem="4b3-Nw-vpf" firstAttribute="centerY" secondItem="eOx-9a-Hue" secondAttribute="centerY" id="Yg8-lL-LWZ"/>
+                    <constraint firstItem="eOx-9a-Hue" firstAttribute="top" secondItem="EkE-rm-BVa" secondAttribute="bottom" constant="15.5" id="ddF-fK-d3v"/>
+                    <constraint firstAttribute="trailing" secondItem="EkE-rm-BVa" secondAttribute="trailing" constant="10" id="gnR-tM-4ZY"/>
+                    <constraint firstItem="EkE-rm-BVa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="mK8-ia-I9B"/>
+                    <constraint firstAttribute="trailing" secondItem="4b3-Nw-vpf" secondAttribute="trailing" constant="10" id="rLR-GN-w6n"/>
+                    <constraint firstItem="4b3-Nw-vpf" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="wHI-5P-d7H"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDescricaoGasto" destination="0ES-XK-E3G" id="aLu-mD-4bx"/>
+                <outlet property="lblEstado" destination="4b3-Nw-vpf" id="3NT-Qj-BJ8"/>
+                <outlet property="lblNome" destination="EkE-rm-BVa" id="0dC-7b-3kJ"/>
+                <outlet property="lblPartido" destination="eOx-9a-Hue" id="nsN-c9-hST"/>
+                <outlet property="lblValorGasto" destination="gw0-cD-5Oy" id="Thq-cy-mwl"/>
+            </connections>
+            <point key="canvasLocation" x="140.80000000000001" y="198.80059970014995"/>
+        </tableViewCell>
+    </objects>
+</document>
